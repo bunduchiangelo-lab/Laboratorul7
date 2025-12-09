@@ -1,3 +1,14 @@
 h1{
     color: rgb(98, 131, 149);
 }
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+#contact input, #contact textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+}
