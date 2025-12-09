@@ -1,26 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Site</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Site</title>
+    </head>
 
-<body>
+    <body>
 
-    <header>
-        <h1>Header</h1>
-        <img src="https://imgs.search.brave.com/zdjEy67_CrsoRljC6IzTc4duwxG5iRv5hd4wRk79hgI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWct/Y29ycC5jb20vaW1h/Z2VzL3NsaWRlcy9j/aXRpZXMvaW1nLWR1/YmFpLmpwZw"
-            alt="" width="250px" height="100px">
-    </header>
-    <footer>
-        <h1>Footer</h1>
-        <img src="https://imgs.search.brave.com/xdjS2Tsr9O6ROvYBoGf1CUjYjLism6gE4OmVCHkOdRE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWct/Y29ycC5jb20vaW1h/Z2VzL3NsaWRlcy9j/aXRpZXMvaW1nLXRh/aXdhbi5qcGc"
-            alt="" width="250px" height="100px">
-    </footer>
-    <script src="script.js"></script>
-</body>
+        <header>
+            <h1>Header</h1>
+            <img
+                src="https://imgs.search.brave.com/zdjEy67_CrsoRljC6IzTc4duwxG5iRv5hd4wRk79hgI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWct/Y29ycC5jb20vaW1h/Z2VzL3NsaWRlcy9j/aXRpZXMvaW1nLWR1/YmFpLmpwZw"
+                alt width="250px" height="100px">
+        </header>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="#" method="post">
+                <label for="nume">Nume:</label>
+                <input type="text" id="nume" name="nume" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mesaj">Mesaj:</label>
+                <textarea id="mesaj" name="mesaj" rows="5" required></textarea>
+
+                <button type="submit">Trimite</button>
+            </form>
+        </section>
+        <section id="galerie">
+            <h2>Galerie</h2>
+            <div class="galerie-container">
+                <img src="img/poza1.jpg" alt="Imagine 1">
+                <img src="img/poza2.jpg" alt="Imagine 2">
+                <img src="img/poza3.jpg" alt="Imagine 3">
+                <img src="img/poza4.jpg" alt="Imagine 4">
+            </div>
+        </section>
+        <footer>
+            <h1>Footer</h1>
+            <img
+                src="https://imgs.search.brave.com/xdjS2Tsr9O6ROvYBoGf1CUjYjLism6gE4OmVCHkOdRE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWct/Y29ycC5jb20vaW1h/Z2VzL3NsaWRlcy9j/aXRpZXMvaW1nLXRh/aXdhbi5qcGc"
+                alt width="250px" height="100px">
+        </footer>
+        <script src="script.js"></script>
+    </body>
 
 </html>

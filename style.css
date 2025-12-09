@@ -1,3 +1,25 @@
 h1{
     color: rgb(98, 131, 149);
 }
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+#contact input, #contact textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#galerie .galerie-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+#galerie img {
+    width: 100%;
+    border-radius: 8px;
+}
